@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+        <load-on-startup>10</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/uploadPhoto</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servlet.HeroListServlet</servlet-name>
+        <servlet-class>servlet.HeroListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet.HeroListServlet</servlet-name>
+        <url-pattern>/listHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servlet.HeroAddServlet</servlet-name>
+        <servlet-class>servlet.HeroAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet.HeroAddServlet</servlet-name>
+        <url-pattern>/addHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servlet.HeroDeleteServlet</servlet-name>
+        <servlet-class>servlet.HeroDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet.HeroDeleteServlet</servlet-name>
+        <url-pattern>/deleteHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servlet.HeroEditServlet</servlet-name>
+        <servlet-class>servlet.HeroEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet.HeroEditServlet</servlet-name>
+        <url-pattern>/editHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroEditServlet1</servlet-name>
+        <servlet-class>HeroEditServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HeroEditServlet1</servlet-name>
+        <url-pattern>/editHero1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servlet.HeroUpdateServlet</servlet-name>
+        <servlet-class>servlet.HeroUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet.HeroUpdateServlet</servlet-name>
+        <url-pattern>/updateHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitServlet</servlet-name>
+        <servlet-class>SubmitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitServlet</servlet-name>
+        <url-pattern>/submitServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetOneServlet</servlet-name>
+        <servlet-class>GetOneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetOneServlet</servlet-name>
+        <url-pattern>/getOneServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetManyServlet</servlet-name>
+        <servlet-class>GetManyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetManyServlet</servlet-name>
+        <url-pattern>/getManyServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
