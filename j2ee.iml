@@ -50,5 +50,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 9.0.19" level="application_server_libraries" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>
