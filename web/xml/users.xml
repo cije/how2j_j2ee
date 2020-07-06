@@ -2,7 +2,10 @@
 <?xml-stylesheet type="text/css" href="a.css"?>
 <users>
     <user id="1">
-        <name>张三</name>
+        <name lalala="123">
+            <xing>张</xing>
+            <ming>三</ming>
+        </name>
         <age>23</age>
         <gender>male</gender>
         <br/>
